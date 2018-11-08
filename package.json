@@ -1,0 +1,51 @@
+{
+  "name": "move-to-range-cli",
+  "version": "1.0.0",
+  "description": "Move files to a range of directories.",
+  "bin": {
+    "move-to-range": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "mv",
+    "move",
+    "file",
+    "files",
+    "integer",
+    "range",
+    "loop",
+    "dir",
+    "dirs",
+    "directory",
+    "directories",
+    "folder",
+    "folders",
+    "fs",
+    "filesystem",
+    "file-system",
+    "cli",
+    "cli-app"
+  ],
+  "author": {
+    "name": "Austin Gordon",
+    "email": "agordon@hutsoninc.com",
+    "url": "https://github.com/AustinLeeGordon"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hutsoninc/move-to-range-cli"
+  },
+  "dependencies": {
+    "move-to-range": "^1.0.0",
+    "meow": "^5.0.0"
+  }
+}
