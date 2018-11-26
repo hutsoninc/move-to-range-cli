@@ -1,12 +1,12 @@
 {
   "name": "move-to-range-cli",
   "version": "1.0.0",
-  "description": "Move files to a range of directories.",
+  "description": "Move files to corresponding directories given a range.",
   "bin": {
     "move-to-range": "cli.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -45,7 +45,7 @@
     "url": "https://github.com/hutsoninc/move-to-range-cli"
   },
   "dependencies": {
-    "move-to-range": "^1.0.0",
+    "move-to-range": "^1.0.2",
     "meow": "^5.0.0"
   }
 }

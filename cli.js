@@ -32,4 +32,4 @@ if (input.length === 1) {
     process.exit(1);
 }
 
-moveToRange(input[0], input[1], cli.flags)
+moveToRange(input[0], input[1], cli.flags);

@@ -1,6 +1,8 @@
 # move-to-range-cli
 
-Move files to a range of directories.
+[![Current npm package version](https://img.shields.io/npm/v/move-to-range-cli.svg)](https://www.npmjs.com/package/move-to-range-cli) 
+
+Move files to corresponding directories given a range.
 
 ## Installation
 
@@ -49,7 +51,7 @@ $ move-to-range 1-3,5 .txt
 │ ...
 ```
 
-With options:
+### With options:
 
 ```
 $ tree
@@ -81,16 +83,22 @@ $ tree
 │ ...
 ```
 
-Create a shell alias:
+## Command Line/Shell Alias
+
+### Windows
+
+Follow the instructions on [this Stack Overflow answer](https://stackoverflow.com/a/21040825/8268314) to set up an alias on Windows.
+
+### UNIX
 
 ```
-alias mtr=move-to-range
+alias mdr=make-dir-range
 ```
 
 ## Related
 
 - [move-to-range](https://github.com/hutsoninc/move-to-range) - API for this module
-- [copy-to-range-cli](https://github.com/hutsoninc/copy-to-range-cli) - Copy files to a range of directories
+- [copy-to-range-cli](https://github.com/hutsoninc/copy-to-range-cli) - Copy a file to a range of directories
 - [make-dir-range-cli](https://github.com/hutsoninc/make-dir-range-cli) - Make directories from a range of integers
 
 ## Authors
