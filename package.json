@@ -1,6 +1,6 @@
 {
   "name": "move-to-range-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Move files to corresponding directories given a range.",
   "bin": {
     "move-to-range": "cli.js"
